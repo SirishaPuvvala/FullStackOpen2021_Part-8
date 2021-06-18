@@ -1,8 +1,6 @@
 const { ApolloServer, gql } = require('apollo-server-express');
 var express = require('express');
-
 var app = express();
-
 let authors = [
   {
     name: 'Robert Martin',
