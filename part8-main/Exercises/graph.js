@@ -1,10 +1,8 @@
 //var express = require('express');
 const { v1: uuid } = require('uuid')
-
 const { ApolloServer, gql } = require('apollo-server')
 const { UserInputError, AuthenticationError} = require('apollo-server')
 //const jwt = require('jsonwebtoken')
-
 const mongoose = require('mongoose')
 const Book = require('./models/book')
 const Author = require('./models/author')
